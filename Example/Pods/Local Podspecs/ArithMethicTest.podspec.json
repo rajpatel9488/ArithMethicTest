@@ -1,0 +1,22 @@
+{
+  "name": "ArithMethicTest",
+  "version": "0.1.0",
+  "summary": "A short description of ArithMethicTest.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/rajpatel9488/ArithMethicTest",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "rajpatel9488": "bhavin_bera@logisticinfotech.com"
+  },
+  "source": {
+    "git": "https://github.com/rajpatel9488/ArithMethicTest.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ArithMethicTest/Classes/**/*"
+}

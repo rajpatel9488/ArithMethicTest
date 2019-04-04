@@ -1,0 +1,16 @@
+PODS:
+  - ArithMethicTest (0.1.0)
+
+DEPENDENCIES:
+  - ArithMethicTest (from `../`)
+
+EXTERNAL SOURCES:
+  ArithMethicTest:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  ArithMethicTest: 6e8a753a490308787c85ac2bdbf846edd0d384fb
+
+PODFILE CHECKSUM: f951ea3b3f3f2251c4627ee4d3ddc9f44b1f820d
+
+COCOAPODS: 1.5.3

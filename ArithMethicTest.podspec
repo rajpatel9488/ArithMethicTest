@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint ArithMethicTest.podspec' to ensure this is a
+# Be sure to run `pod lib lint ArithMethic.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,36 +7,16 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'ArithMethicTest'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of ArithMethicTest.'
-
-# This description is used to generate tags and improve search results.
-#   * Think: What does it do? Why did you write it? What is the focus?
-#   * Try to keep it short, snappy and to the point.
-#   * Write the description between the DESC delimiters below.
-#   * Finally, don't worry about the indent, CocoaPods strips it!
-
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
-
-  s.homepage         = 'https://github.com/rajpatel9488/ArithMethicTest'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'rajpatel9488' => 'bhavin_bera@logisticinfotech.com' }
-  s.source           = { :git => 'https://github.com/rajpatel9488/ArithMethicTest.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
-
-  s.ios.deployment_target = '8.0'
-
-  s.source_files = 'ArithMethicTest/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'ArithMethicTest' => ['ArithMethicTest/Assets/*.png']
-  # }
-
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+    s.name             = 'ArithMethicTest'
+    s.version          = '0.1.0'
+    s.summary          = 'Arithmatic option pod is use for arithmatic opration. addition multiplication and many more.'
+    s.ios.deployment_target = '10.0'
+    
+    s.homepage         = 'https://github.com/rajpatel9488/ArithMethicTest'
+    s.license          = { :type => 'MIT', :file => 'LICENSE' }
+    s.author           = { 'Raj Patel' => 'raj.patel9488@gmail.com' }
+    s.source           = { :git => 'https://github.com/rajpatel9488/ArithMethicTest.git', :tag => s.version.to_s }
+    s.source_files = 'ArithMethicTest/Classes/**/*'
+    s.framework = "UIKit"
+    s.swift_version = "4.2.1"
 end

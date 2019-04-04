@@ -1,0 +1,6 @@
+framework module ArithMethicTest {
+  umbrella header "ArithMethicTest-umbrella.h"
+
+  export *
+  module * { export * }
+}
