@@ -1,0 +1,6 @@
+use_frameworks!
+target 'ArithMethicTest_Tests' do
+  pod 'ArithMethicTest', :path => '../'
+  
+  
+end
