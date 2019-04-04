@@ -7,16 +7,16 @@
 #
 
 Pod::Spec.new do |s|
-    s.name             = 'ArithMethicTest'
-    s.version          = '0.1.1'
+    s.name             = 'ArithMethic'
+    s.version          = '0.1.2'
     s.summary          = 'Arithmatic option pod is use for arithmatic opration. addition multiplication and many more.'
     s.ios.deployment_target = '10.0'
     
-    s.homepage         = 'https://github.com/rajpatel9488/ArithMethicTest'
+    s.homepage         = 'https://github.com/rajpatel9488/ArithMethic'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Raj Patel' => 'raj.patel9488@gmail.com' }
-    s.source           = { :git => 'git@github.com:rajpatel9488/ArithMethicTest.git', :tag => s.version.to_s }
-    s.source_files = 'ArithMethicTest/Classes/**/*'
+    s.source           = { :git => 'https://github.com/rajpatel9488/ArithMethic.git', :tag => s.version.to_s }
+    s.source_files = 'ArithMethic/Classes/**/*'
     s.framework = "UIKit"
     s.swift_version = "4.2.1"
 end
