@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
     s.homepage         = 'https://github.com/rajpatel9488/ArithMethicTest'
     s.license          = { :type => 'MIT', :file => 'LICENSE' }
     s.author           = { 'Raj Patel' => 'raj.patel9488@gmail.com' }
-    s.source           = { :git => 'https://github.com/rajpatel9488/ArithMethicTest.git', :tag => s.version.to_s }
+    s.source           = { :git => 'git@github.com:rajpatel9488/ArithMethicTest.git', :tag => s.version.to_s }
     s.source_files = 'ArithMethicTest/Classes/**/*'
     s.framework = "UIKit"
     s.swift_version = "4.2.1"
